@@ -1,0 +1,2 @@
+hello
+-DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/ros/catkin/devel -DCMAKE_INSTALL_PREFIX=/home/ros/catkin/install -G Unix Makefiles

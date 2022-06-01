@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2022-05-20 22:58:49,708: init_node, name[/turtle_pointer], pid[3489]
+[xmlrpc][INFO] 2022-05-20 22:58:49,709: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-20 22:58:49,709: Started XML-RPC server [http://ubuntu:34671/]
+[rospy.impl.masterslave][INFO] 2022-05-20 22:58:49,709: _ready: http://ubuntu:34671/
+[rospy.init][INFO] 2022-05-20 22:58:49,710: ROS Slave URI: [http://ubuntu:34671/]
+[xmlrpc][INFO] 2022-05-20 22:58:49,710: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-20 22:58:49,711: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-05-20 22:58:49,811: registered with master
+[rospy.rosout][INFO] 2022-05-20 22:58:49,811: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-20 22:58:49,814: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-20 22:58:49,817: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-20 22:58:49,837: topic[/tf] adding connection to [http://ubuntu:43921/], count 0
+[rospy.internal][INFO] 2022-05-20 22:58:50,049: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-20 22:58:50,072: topic[/tf] adding connection to [http://ubuntu:40683/], count 1
+[rospy.internal][INFO] 2022-05-20 22:58:50,149: topic[/turtle2/cmd_vel] adding connection to [/sim], count 0
+[rospy.internal][INFO] 2022-05-20 23:01:35,766: topic[/turtle2/cmd_vel] removing connection to /sim
+[rospy.core][INFO] 2022-05-20 23:01:42,789: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-20 23:01:42,796: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-20 23:01:42,796: topic[/tf] removing connection to http://ubuntu:43921/
+[rospy.internal][INFO] 2022-05-20 23:01:42,797: topic[/tf] removing connection to http://ubuntu:40683/
+[rospy.impl.masterslave][INFO] 2022-05-20 23:01:42,798: signal-2
+[rospy.internal][WARNING] 2022-05-20 23:01:42,798: Unknown error initiating TCP/IP socket to ubuntu:40075 (http://ubuntu:40683/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-05-20 23:01:42,908: signal_shutdown [atexit]

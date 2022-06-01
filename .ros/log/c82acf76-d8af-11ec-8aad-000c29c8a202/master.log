@@ -1,0 +1,219 @@
+[rosmaster.main][INFO] 2022-05-21 10:43:23,987: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-05-21 10:43:23,987: Starting ROS Master Node
+[xmlrpc][INFO] 2022-05-21 10:43:23,989: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-05-21 10:43:23,989: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-05-21 10:43:23,989: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-05-21 10:43:23,989: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-05-21 10:43:24,075: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,077: +PARAM [/roslaunch/uris/host_ubuntu__37233] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/robot_state_publisher/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/arbotix/sim] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/arbotix/controllers/base_controller/accel_limit] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/arbotix/controllers/base_controller/base_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/arbotix/controllers/base_controller/Kp] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/arbotix/controllers/base_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,227: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,228: +PARAM [/arbotix/controllers/base_controller/Ko] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,228: +PARAM [/arbotix/controllers/base_controller/Ki] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,228: +PARAM [/arbotix/controllers/base_controller/Kd] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,228: +PARAM [/arbotix/controllers/base_controller/ticks_meter] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,228: +PARAM [/arbotix/controllers/base_controller/base_width] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,228: +PARAM [/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:43:24,232: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:40653/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,234: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:40653/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,238: +PUB [/rosout_agg] /rosout http://ubuntu:40653/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,251: +SUB [/rosout] /rosout http://ubuntu:40653/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,303: +PUB [/rosout] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,308: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,311: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,322: +PUB [/tf] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,325: +PUB [/tf_static] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,354: +SUB [/joint_states] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,390: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/']
+[rosmaster.master][INFO] 2022-05-21 10:43:24,394: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:43:24,511: +PUB [/rosout] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,512: +SERVICE [/rviz/get_loggers] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,513: +SERVICE [/rviz/set_logger_level] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,592: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/']
+[rosmaster.master][INFO] 2022-05-21 10:43:24,594: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:43:24,661: +PUB [/rosout] /joint_state_publisher http://ubuntu:42425/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,667: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://ubuntu:42425/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,670: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://ubuntu:42425/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,693: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/']
+[rosmaster.master][INFO] 2022-05-21 10:43:24,696: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:43:24,728: +SUB [/tf] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,735: +PUB [/joint_states] /joint_state_publisher http://ubuntu:42425/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,741: +SUB [/tf_static] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,787: +PUB [/initialpose] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,789: +PUB [/goal] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:24,797: publisherUpdate[/joint_states] -> http://ubuntu:44595/ ['http://ubuntu:42425/']
+[rosmaster.master][INFO] 2022-05-21 10:43:24,799: publisherUpdate[/joint_states] -> http://ubuntu:44595/ ['http://ubuntu:42425/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:43:25,287: +SUB [/odom] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:25,290: -PUB [/goal] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:25,292: -PUB [/initialpose] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:25,300: +PUB [/initialpose] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:25,302: +PUB [/goal] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:25,304: +PUB [/move_base_simple/goal] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:25,306: -PUB [/goal] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:25,308: +PUB [/clicked_point] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:25,356: +SERVICE [/rviz/reload_shaders] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,312: +PUB [/rosout] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,317: +SERVICE [/arbotix/get_loggers] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,319: +SERVICE [/arbotix/set_logger_level] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,338: +PUB [/diagnostics] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,344: +PUB [/joint_states] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,379: +SUB [/cmd_vel] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,382: +PUB [/odom] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,385: +PUB [/tf] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,387: +SERVICE [/arbotix/SetupAnalogIn] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,390: +SERVICE [/arbotix/SetupDigitalIn] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,394: +SERVICE [/arbotix/SetupDigitalOut] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:43:26,408: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/']
+[rosmaster.master][INFO] 2022-05-21 10:43:26,410: publisherUpdate[/joint_states] -> http://ubuntu:44595/ ['http://ubuntu:42425/', 'http://ubuntu:39779/']
+[rosmaster.master][INFO] 2022-05-21 10:43:26,410: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:43:26,411: publisherUpdate[/odom] -> http://ubuntu:33535/ ['http://ubuntu:39779/']
+[rosmaster.master][INFO] 2022-05-21 10:43:26,412: publisherUpdate[/joint_states] -> http://ubuntu:44595/ ['http://ubuntu:42425/', 'http://ubuntu:39779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:43:26,413: publisherUpdate[/odom] -> http://ubuntu:33535/ ['http://ubuntu:39779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:43:26,414: publisherUpdate[/tf] -> http://ubuntu:33535/ ['http://ubuntu:44595/', 'http://ubuntu:39779/']
+[rosmaster.master][INFO] 2022-05-21 10:43:26,415: publisherUpdate[/tf] -> http://ubuntu:33535/ ['http://ubuntu:44595/', 'http://ubuntu:39779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:44:39,646: +PARAM [/roslaunch/uris/host_ubuntu__33997] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:44:39,655: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:44:39,655: +PARAM [/myrobot_teleop/scale_linear] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:44:39,655: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:44:39,656: +PARAM [/myrobot_teleop/scale_angular] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:44:40,779: +PUB [/rosout] /myrobot_teleop http://ubuntu:42359/
+[rosmaster.master][INFO] 2022-05-21 10:44:40,788: +SERVICE [/myrobot_teleop/get_loggers] /myrobot_teleop http://ubuntu:42359/
+[rosmaster.master][INFO] 2022-05-21 10:44:40,791: +SERVICE [/myrobot_teleop/set_logger_level] /myrobot_teleop http://ubuntu:42359/
+[rosmaster.master][INFO] 2022-05-21 10:44:40,794: +PUB [/cmd_vel] /myrobot_teleop http://ubuntu:42359/
+[rosmaster.master][INFO] 2022-05-21 10:44:40,863: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/', 'http://ubuntu:42359/']
+[rosmaster.master][INFO] 2022-05-21 10:44:40,863: publisherUpdate[/cmd_vel] -> http://ubuntu:39779/ ['http://ubuntu:42359/']
+[rosmaster.master][INFO] 2022-05-21 10:44:40,867: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/', 'http://ubuntu:42359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:44:40,868: publisherUpdate[/cmd_vel] -> http://ubuntu:39779/ ['http://ubuntu:42359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:47:53,440: -PUB [/rosout] /myrobot_teleop http://ubuntu:42359/
+[rosmaster.master][INFO] 2022-05-21 10:47:53,440: -PUB [/cmd_vel] /myrobot_teleop http://ubuntu:42359/
+[rosmaster.master][INFO] 2022-05-21 10:47:53,440: -SERVICE [/myrobot_teleop/set_logger_level] /myrobot_teleop rosrpc://ubuntu:37797
+[rosmaster.master][INFO] 2022-05-21 10:47:53,441: -SERVICE [/myrobot_teleop/get_loggers] /myrobot_teleop rosrpc://ubuntu:37797
+[rosmaster.master][INFO] 2022-05-21 10:47:53,448: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/']
+[rosmaster.master][INFO] 2022-05-21 10:47:53,450: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:47:53,450: publisherUpdate[/cmd_vel] -> http://ubuntu:39779/ []
+[rosmaster.master][INFO] 2022-05-21 10:47:53,452: publisherUpdate[/cmd_vel] -> http://ubuntu:39779/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:48:01,203: +PARAM [/roslaunch/uris/host_ubuntu__44327] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:48:01,209: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:48:01,209: +PARAM [/myrobot_teleop/scale_linear] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:48:01,209: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:48:01,210: +PARAM [/myrobot_teleop/scale_angular] by /roslaunch
+[rosmaster.master][INFO] 2022-05-21 10:48:01,729: +PUB [/rosout] /myrobot_teleop http://ubuntu:34889/
+[rosmaster.master][INFO] 2022-05-21 10:48:01,735: +SERVICE [/myrobot_teleop/get_loggers] /myrobot_teleop http://ubuntu:34889/
+[rosmaster.master][INFO] 2022-05-21 10:48:01,738: +SERVICE [/myrobot_teleop/set_logger_level] /myrobot_teleop http://ubuntu:34889/
+[rosmaster.master][INFO] 2022-05-21 10:48:01,740: +PUB [/cmd_vel] /myrobot_teleop http://ubuntu:34889/
+[rosmaster.master][INFO] 2022-05-21 10:48:01,747: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/', 'http://ubuntu:34889/']
+[rosmaster.master][INFO] 2022-05-21 10:48:01,749: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/', 'http://ubuntu:34889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:48:01,750: publisherUpdate[/cmd_vel] -> http://ubuntu:39779/ ['http://ubuntu:34889/']
+[rosmaster.master][INFO] 2022-05-21 10:48:01,752: publisherUpdate[/cmd_vel] -> http://ubuntu:39779/ ['http://ubuntu:34889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:30,010: -PUB [/rosout] /myrobot_teleop http://ubuntu:34889/
+[rosmaster.master][INFO] 2022-05-21 10:49:30,010: -PUB [/cmd_vel] /myrobot_teleop http://ubuntu:34889/
+[rosmaster.master][INFO] 2022-05-21 10:49:30,010: -SERVICE [/myrobot_teleop/set_logger_level] /myrobot_teleop rosrpc://ubuntu:37251
+[rosmaster.master][INFO] 2022-05-21 10:49:30,011: -SERVICE [/myrobot_teleop/get_loggers] /myrobot_teleop rosrpc://ubuntu:37251
+[rosmaster.master][INFO] 2022-05-21 10:49:30,017: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/']
+[rosmaster.master][INFO] 2022-05-21 10:49:30,018: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/', 'http://ubuntu:39779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:30,019: publisherUpdate[/cmd_vel] -> http://ubuntu:39779/ []
+[rosmaster.master][INFO] 2022-05-21 10:49:30,021: publisherUpdate[/cmd_vel] -> http://ubuntu:39779/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,600: -SUB [/cmd_vel] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,600: -PUB [/diagnostics] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,600: -PUB [/joint_states] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,600: -PUB [/rosout] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,600: -PUB [/tf] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,600: -PUB [/odom] /arbotix http://ubuntu:39779/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,601: -SERVICE [/arbotix/SetupDigitalOut] /arbotix rosrpc://ubuntu:44237
+[rosmaster.master][INFO] 2022-05-21 10:49:40,601: -SERVICE [/arbotix/get_loggers] /arbotix rosrpc://ubuntu:44237
+[rosmaster.master][INFO] 2022-05-21 10:49:40,601: -SERVICE [/arbotix/SetupDigitalIn] /arbotix rosrpc://ubuntu:44237
+[rosmaster.master][INFO] 2022-05-21 10:49:40,601: -SERVICE [/arbotix/SetupAnalogIn] /arbotix rosrpc://ubuntu:44237
+[rosmaster.master][INFO] 2022-05-21 10:49:40,601: -SERVICE [/arbotix/set_logger_level] /arbotix rosrpc://ubuntu:44237
+[rosmaster.master][INFO] 2022-05-21 10:49:40,604: -PUB [/joint_states] /joint_state_publisher http://ubuntu:42425/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,604: publisherUpdate[/joint_states] -> http://ubuntu:44595/ ['http://ubuntu:42425/']
+[rosmaster.master][INFO] 2022-05-21 10:49:40,605: -PUB [/rosout] /joint_state_publisher http://ubuntu:42425/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,606: publisherUpdate[/joint_states] -> http://ubuntu:44595/ ['http://ubuntu:42425/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,606: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://ubuntu:43095
+[rosmaster.master][INFO] 2022-05-21 10:49:40,606: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/']
+[rosmaster.master][INFO] 2022-05-21 10:49:40,606: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://ubuntu:43095
+[rosmaster.master][INFO] 2022-05-21 10:49:40,608: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/', 'http://ubuntu:42425/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,608: publisherUpdate[/tf] -> http://ubuntu:33535/ ['http://ubuntu:44595/']
+[rosmaster.master][INFO] 2022-05-21 10:49:40,609: publisherUpdate[/tf] -> http://ubuntu:33535/ ['http://ubuntu:44595/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,610: publisherUpdate[/odom] -> http://ubuntu:33535/ []
+[rosmaster.master][INFO] 2022-05-21 10:49:40,610: publisherUpdate[/odom] -> http://ubuntu:33535/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,611: publisherUpdate[/joint_states] -> http://ubuntu:44595/ []
+[rosmaster.master][INFO] 2022-05-21 10:49:40,612: publisherUpdate[/joint_states] -> http://ubuntu:44595/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,612: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/']
+[rosmaster.master][INFO] 2022-05-21 10:49:40,613: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/', 'http://ubuntu:33535/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,713: -PUB [/rosout] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,714: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/']
+[rosmaster.master][INFO] 2022-05-21 10:49:40,717: -PUB [/rosout] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,717: publisherUpdate[/rosout] -> http://ubuntu:40653/ ['http://ubuntu:44595/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,719: -PUB [/initialpose] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,720: publisherUpdate[/rosout] -> http://ubuntu:40653/ []
+[rosmaster.master][INFO] 2022-05-21 10:49:40,721: -PUB [/tf] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,724: publisherUpdate[/rosout] -> http://ubuntu:40653/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-21 10:49:40,726: -PUB [/move_base_simple/goal] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,726: publisherUpdate[/tf] -> http://ubuntu:33535/ []
+[rosmaster.master][INFO] 2022-05-21 10:49:40,728: -PUB [/tf_static] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,730: publisherUpdate[/tf] -> http://ubuntu:33535/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2022-05-21 10:49:40,733: -PUB [/clicked_point] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,734: publisherUpdate[/tf_static] -> http://ubuntu:33535/ []
+[rosmaster.threadpool][ERROR] 2022-05-21 10:49:40,735: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2022-05-21 10:49:40,735: -SUB [/joint_states] /robot_state_publisher http://ubuntu:44595/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,738: -SUB [/tf] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,743: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://ubuntu:32883
+[rosmaster.master][INFO] 2022-05-21 10:49:40,744: publisherUpdate[/tf_static] -> http://ubuntu:33535/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2022-05-21 10:49:40,745: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2022-05-21 10:49:40,748: -SUB [/tf_static] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,750: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://ubuntu:32883
+[rosmaster.master][INFO] 2022-05-21 10:49:40,752: -SUB [/odom] /rviz http://ubuntu:33535/
+[rosmaster.master][INFO] 2022-05-21 10:49:40,754: -SERVICE [/rviz/get_loggers] /rviz rosrpc://ubuntu:60675
+[rosmaster.master][INFO] 2022-05-21 10:49:40,756: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://ubuntu:60675
+[rosmaster.master][INFO] 2022-05-21 10:49:40,757: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://ubuntu:60675
+[rosmaster.master][INFO] 2022-05-21 10:49:41,126: -PUB [/rosout_agg] /rosout http://ubuntu:40653/
+[rosmaster.master][INFO] 2022-05-21 10:49:41,127: -SUB [/rosout] /rosout http://ubuntu:40653/
+[rosmaster.master][INFO] 2022-05-21 10:49:41,129: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:51077
+[rosmaster.master][INFO] 2022-05-21 10:49:41,131: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:51077
+[rosmaster.main][INFO] 2022-05-21 10:49:41,205: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-05-21 10:49:41,205: stopping master...
+[rospy.core][INFO] 2022-05-21 10:49:41,205: signal_shutdown [atexit]

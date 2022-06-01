@@ -1,0 +1,8 @@
+prefix=/home/ros/Desktop/TOPIC/install
+
+Name: myrobot_teleop
+Description: Description of myrobot_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

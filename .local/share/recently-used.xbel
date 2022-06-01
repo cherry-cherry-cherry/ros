@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/ros/myrobot_description/CMakeLists.txt" added="2022-05-20T00:26:29Z" modified="2022-05-20T00:26:29Z" visited="2022-05-20T00:26:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-cmake"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2022-05-20T00:26:29Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-05-20T00:26:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/frames.pdf" added="2022-05-20T00:27:08Z" modified="2022-05-20T00:27:08Z" visited="2022-05-20T00:27:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="文档查看器" exec="&apos;evince %u&apos;" modified="2022-05-20T00:27:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/catkin_ws/src/ROS-Academy-for-Beginners/myrobot_description/urdf/myrobot.pdf" added="2022-05-20T15:34:31Z" modified="2022-05-20T15:34:31Z" visited="2022-05-20T15:34:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="文档查看器" exec="&apos;evince %u&apos;" modified="2022-05-20T15:34:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/catkin_ws/src/ROS-Academy-for-Beginners/myrobot_description/urdf/myrobot.urdf" added="2022-05-20T15:35:13Z" modified="2022-05-21T02:18:54Z" visited="2022-05-20T15:35:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2022-05-21T02:18:54Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/catkin_ws/src/ROS-Academy-for-Beginners/myrobot_description/urdf/myrobot_move.urdf" added="2022-05-21T02:19:31Z" modified="2022-05-21T02:38:10Z" visited="2022-05-21T02:19:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2022-05-21T02:38:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/tutorial_ws/src/ROS-Academy-for-Beginners/topic_demo/src" added="2022-06-01T00:15:07Z" modified="2022-06-01T00:15:07Z" visited="2022-06-01T00:15:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="roboware-studio" exec="&apos;roboware-studio %u&apos;" modified="2022-06-01T00:15:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/CATKIN" added="2022-06-01T00:18:26Z" modified="2022-06-01T00:18:26Z" visited="2022-06-01T00:18:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="roboware-studio" exec="&apos;roboware-studio %u&apos;" modified="2022-06-01T00:18:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/catkin_ws/src/ROS-Academy-for-Beginners" added="2022-06-01T00:24:29Z" modified="2022-06-01T00:24:29Z" visited="2022-06-01T00:24:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="roboware-studio" exec="&apos;roboware-studio %u&apos;" modified="2022-06-01T00:24:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/catkin_ws" added="2022-06-01T00:24:44Z" modified="2022-06-01T00:26:18Z" visited="2022-06-01T00:24:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="roboware-studio" exec="&apos;roboware-studio %u&apos;" modified="2022-06-01T00:26:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ros/catkin" added="2022-06-01T00:48:04Z" modified="2022-06-01T00:48:37Z" visited="2022-06-01T00:48:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="roboware-studio" exec="&apos;roboware-studio %u&apos;" modified="2022-06-01T00:48:37Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

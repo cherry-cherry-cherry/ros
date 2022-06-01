@@ -1,0 +1,5 @@
+
+
+1653097959.502004887  Node Startup
+1653097960.193486370 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:441(RenderWindow* rviz::RenderSystem::makeRenderWindow) [topics: /rosout] Stereo is NOT SUPPORTED
+1653097960.193608074 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:222(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).

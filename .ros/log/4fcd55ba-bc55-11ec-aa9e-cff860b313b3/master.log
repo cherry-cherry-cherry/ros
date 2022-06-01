@@ -1,0 +1,39 @@
+[rosmaster.main][INFO] 2022-04-15 08:45:15,160: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-04-15 08:45:15,160: Starting ROS Master Node
+[xmlrpc][INFO] 2022-04-15 08:45:15,162: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-04-15 08:45:15,163: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-04-15 08:45:15,163: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-04-15 08:45:15,164: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-04-15 08:45:15,251: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,254: +PARAM [/roslaunch/uris/host_ubuntu__40805] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,546: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,547: +PARAM [/param5] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,548: +PARAM [/param4] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,548: +PARAM [/param1] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,549: +PARAM [/param3] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,549: +PARAM [/param2] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,549: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-04-15 08:45:15,591: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:44041/
+[rosmaster.master][INFO] 2022-04-15 08:45:15,594: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:44041/
+[rosmaster.master][INFO] 2022-04-15 08:45:15,602: +PUB [/rosout_agg] /rosout http://ubuntu:44041/
+[rosmaster.master][INFO] 2022-04-15 08:45:15,618: +SUB [/rosout] /rosout http://ubuntu:44041/
+[rosmaster.master][INFO] 2022-04-15 08:45:15,625: +PUB [/rosout] /param_demo http://ubuntu:33549/
+[rosmaster.master][INFO] 2022-04-15 08:45:15,627: +SERVICE [/param_demo/get_loggers] /param_demo http://ubuntu:33549/
+[rosmaster.master][INFO] 2022-04-15 08:45:15,629: +SERVICE [/param_demo/set_logger_level] /param_demo http://ubuntu:33549/
+[rosmaster.master][INFO] 2022-04-15 08:45:15,652: +PARAM [/param4] by /param_demo
+[rosmaster.master][INFO] 2022-04-15 08:45:15,655: +PARAM [/param5] by /param_demo
+[rosmaster.master][INFO] 2022-04-15 08:45:15,662: -PARAM [/param5] by /param_demo
+[rosmaster.master][INFO] 2022-04-15 08:45:15,664: publisherUpdate[/rosout] -> http://ubuntu:44041/ ['http://ubuntu:33549/']
+[rosmaster.master][INFO] 2022-04-15 08:45:15,672: publisherUpdate[/rosout] -> http://ubuntu:44041/ ['http://ubuntu:33549/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-15 09:15:52,650: -PUB [/rosout] /param_demo http://ubuntu:33549/
+[rosmaster.master][INFO] 2022-04-15 09:15:52,655: -SERVICE [/param_demo/get_loggers] /param_demo rosrpc://ubuntu:36341
+[rosmaster.master][INFO] 2022-04-15 09:15:52,657: -SERVICE [/param_demo/set_logger_level] /param_demo rosrpc://ubuntu:36341
+[rosmaster.master][INFO] 2022-04-15 09:15:52,689: publisherUpdate[/rosout] -> http://ubuntu:44041/ []
+[rosmaster.master][INFO] 2022-04-15 09:15:52,692: publisherUpdate[/rosout] -> http://ubuntu:44041/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-15 09:15:55,833: -PUB [/rosout_agg] /rosout http://ubuntu:44041/
+[rosmaster.master][INFO] 2022-04-15 09:15:55,838: -SUB [/rosout] /rosout http://ubuntu:44041/
+[rosmaster.master][INFO] 2022-04-15 09:15:55,841: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:59551
+[rosmaster.master][INFO] 2022-04-15 09:15:55,844: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:59551
+[rosmaster.main][INFO] 2022-04-15 09:15:55,996: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-04-15 09:15:55,996: stopping master...
+[rospy.core][INFO] 2022-04-15 09:15:55,997: signal_shutdown [atexit]

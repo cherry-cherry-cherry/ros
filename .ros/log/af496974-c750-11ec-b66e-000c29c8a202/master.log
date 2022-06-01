@@ -1,0 +1,169 @@
+[rosmaster.main][INFO] 2022-04-29 08:09:50,691: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-04-29 08:09:50,691: Starting ROS Master Node
+[xmlrpc][INFO] 2022-04-29 08:09:50,696: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-04-29 08:09:50,696: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-04-29 08:09:50,697: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-04-29 08:09:50,697: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-04-29 08:09:50,754: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-04-29 08:09:50,757: +PARAM [/roslaunch/uris/host_ubuntu__44509] by /roslaunch
+[rosmaster.master][INFO] 2022-04-29 08:09:50,986: +PARAM [/turtle1_tf_broadcaster/turtle] by /roslaunch
+[rosmaster.master][INFO] 2022-04-29 08:09:50,986: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-04-29 08:09:50,987: +PARAM [/scale_angular] by /roslaunch
+[rosmaster.master][INFO] 2022-04-29 08:09:50,987: +PARAM [/turtle2_tf_broadcaster/turtle] by /roslaunch
+[rosmaster.master][INFO] 2022-04-29 08:09:50,987: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-04-29 08:09:50,987: +PARAM [/scale_linear] by /roslaunch
+[rosmaster.master][INFO] 2022-04-29 08:09:51,228: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:39497/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,230: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:39497/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,234: +PUB [/rosout_agg] /rosout http://ubuntu:39497/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,243: +SUB [/rosout] /rosout http://ubuntu:39497/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,351: +PUB [/rosout] /teleop http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,353: +SERVICE [/teleop/get_loggers] /teleop http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,355: +SERVICE [/teleop/set_logger_level] /teleop http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,377: +PUB [/turtle1/cmd_vel] /teleop http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,397: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/']
+[rosmaster.master][INFO] 2022-04-29 08:09:51,404: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:09:51,912: +PUB [/rosout] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,915: +SERVICE [/sim/get_loggers] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,917: +SERVICE [/sim/set_logger_level] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:51,945: +PARAM [/background_r] by /sim
+[rosmaster.master][INFO] 2022-04-29 08:09:51,946: +PARAM [/background_g] by /sim
+[rosmaster.master][INFO] 2022-04-29 08:09:51,948: +PARAM [/background_b] by /sim
+[rosmaster.master][INFO] 2022-04-29 08:09:52,003: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/']
+[rosmaster.master][INFO] 2022-04-29 08:09:52,004: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:09:52,516: +SERVICE [/clear] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,519: +SERVICE [/reset] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,522: +SERVICE [/spawn] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,524: +SERVICE [/kill] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,535: +SUB [/turtle1/cmd_vel] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,538: +PUB [/turtle1/pose] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,540: +PUB [/turtle1/color_sensor] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,542: +SERVICE [/turtle1/set_pen] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,544: +SERVICE [/turtle1/teleport_relative] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:09:52,546: +SERVICE [/turtle1/teleport_absolute] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,010: +PUB [/rosout] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,016: +SERVICE [/turtle_pointer/get_loggers] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,019: +SERVICE [/turtle_pointer/set_logger_level] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,022: +SUB [/tf] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,026: +SUB [/tf_static] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,055: +SUB [/turtle2/cmd_vel] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,057: +PUB [/turtle2/pose] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,059: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:45563/']
+[rosmaster.master][INFO] 2022-04-29 08:10:00,059: +PUB [/turtle2/color_sensor] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,062: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:45563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:00,064: +SERVICE [/turtle2/set_pen] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,066: +SERVICE [/turtle2/teleport_relative] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,068: +SERVICE [/turtle2/teleport_absolute] /sim http://ubuntu:35851/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,074: +PUB [/turtle2/cmd_vel] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,082: +PUB [/rosout] /turtle2_tf_broadcaster http://ubuntu:45479/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,097: +SERVICE [/turtle2_tf_broadcaster/get_loggers] /turtle2_tf_broadcaster http://ubuntu:45479/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,100: +SERVICE [/turtle2_tf_broadcaster/set_logger_level] /turtle2_tf_broadcaster http://ubuntu:45479/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,109: +PUB [/rosout] /turtle1_tf_broadcaster http://ubuntu:37167/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,117: +SUB [/turtle2/pose] /turtle2_tf_broadcaster http://ubuntu:45479/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,119: +SERVICE [/turtle1_tf_broadcaster/get_loggers] /turtle1_tf_broadcaster http://ubuntu:37167/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,123: +SERVICE [/turtle1_tf_broadcaster/set_logger_level] /turtle1_tf_broadcaster http://ubuntu:37167/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,132: +SUB [/turtle1/pose] /turtle1_tf_broadcaster http://ubuntu:37167/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,160: publisherUpdate[/turtle2/cmd_vel] -> http://ubuntu:35851/ ['http://ubuntu:45563/']
+[rosmaster.master][INFO] 2022-04-29 08:10:00,162: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:45563/', 'http://ubuntu:45479/']
+[rosmaster.master][INFO] 2022-04-29 08:10:00,163: publisherUpdate[/turtle2/cmd_vel] -> http://ubuntu:35851/ ['http://ubuntu:45563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:00,167: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:45563/', 'http://ubuntu:45479/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:00,168: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:45563/', 'http://ubuntu:45479/', 'http://ubuntu:37167/']
+[rosmaster.master][INFO] 2022-04-29 08:10:00,169: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:45563/', 'http://ubuntu:45479/', 'http://ubuntu:37167/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:00,177: +PUB [/tf] /turtle2_tf_broadcaster http://ubuntu:45479/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,192: +PUB [/tf] /turtle1_tf_broadcaster http://ubuntu:37167/
+[rosmaster.master][INFO] 2022-04-29 08:10:00,264: publisherUpdate[/tf] -> http://ubuntu:45563/ ['http://ubuntu:45479/']
+[rosmaster.master][INFO] 2022-04-29 08:10:00,278: publisherUpdate[/tf] -> http://ubuntu:45563/ ['http://ubuntu:45479/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:00,279: publisherUpdate[/tf] -> http://ubuntu:45563/ ['http://ubuntu:45479/', 'http://ubuntu:37167/']
+[rosmaster.master][INFO] 2022-04-29 08:10:00,290: publisherUpdate[/tf] -> http://ubuntu:45563/ ['http://ubuntu:45479/', 'http://ubuntu:37167/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:10,608: -SUB [/tf_static] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,609: -SUB [/tf] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,610: -PUB [/turtle2/cmd_vel] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,610: -PUB [/rosout] /turtle_pointer http://ubuntu:45563/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,611: -SERVICE [/turtle_pointer/set_logger_level] /turtle_pointer rosrpc://ubuntu:37195
+[rosmaster.master][INFO] 2022-04-29 08:10:10,611: -SERVICE [/turtle_pointer/get_loggers] /turtle_pointer rosrpc://ubuntu:37195
+[rosmaster.master][INFO] 2022-04-29 08:10:10,616: -SUB [/turtle2/pose] /turtle2_tf_broadcaster http://ubuntu:45479/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,617: -PUB [/rosout] /turtle2_tf_broadcaster http://ubuntu:45479/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,617: -PUB [/tf] /turtle2_tf_broadcaster http://ubuntu:45479/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,618: -SERVICE [/turtle2_tf_broadcaster/set_logger_level] /turtle2_tf_broadcaster rosrpc://ubuntu:41571
+[rosmaster.master][INFO] 2022-04-29 08:10:10,618: -SERVICE [/turtle2_tf_broadcaster/get_loggers] /turtle2_tf_broadcaster rosrpc://ubuntu:41571
+[rosmaster.master][INFO] 2022-04-29 08:10:10,621: -SUB [/turtle1/pose] /turtle1_tf_broadcaster http://ubuntu:37167/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,622: -PUB [/rosout] /turtle1_tf_broadcaster http://ubuntu:37167/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,622: -PUB [/tf] /turtle1_tf_broadcaster http://ubuntu:37167/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,623: -SERVICE [/turtle1_tf_broadcaster/set_logger_level] /turtle1_tf_broadcaster rosrpc://ubuntu:45133
+[rosmaster.master][INFO] 2022-04-29 08:10:10,623: -SERVICE [/turtle1_tf_broadcaster/get_loggers] /turtle1_tf_broadcaster rosrpc://ubuntu:45133
+[rosmaster.master][INFO] 2022-04-29 08:10:10,631: publisherUpdate[/turtle2/cmd_vel] -> http://ubuntu:35851/ []
+[rosmaster.master][INFO] 2022-04-29 08:10:10,632: publisherUpdate[/turtle2/cmd_vel] -> http://ubuntu:35851/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2022-04-29 08:10:10,634: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:45479/', 'http://ubuntu:37167/']
+[rosmaster.master][INFO] 2022-04-29 08:10:10,636: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:45479/', 'http://ubuntu:37167/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:10,636: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:37167/']
+[rosmaster.master][INFO] 2022-04-29 08:10:10,638: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/', 'http://ubuntu:37167/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:10,639: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/']
+[rosmaster.master][INFO] 2022-04-29 08:10:10,641: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:37935/', 'http://ubuntu:35851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.threadpool][ERROR] 2022-04-29 08:10:10,649: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1099, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 913, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 875, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 852, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2022-04-29 08:10:10,820: -PUB [/rosout] /teleop http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,823: -PUB [/turtle1/cmd_vel] /teleop http://ubuntu:37935/
+[rosmaster.master][INFO] 2022-04-29 08:10:10,826: -SERVICE [/teleop/get_loggers] /teleop rosrpc://ubuntu:59755
+[rosmaster.master][INFO] 2022-04-29 08:10:10,828: -SERVICE [/teleop/set_logger_level] /teleop rosrpc://ubuntu:59755
+[rosmaster.master][INFO] 2022-04-29 08:10:10,844: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:35851/']
+[rosmaster.master][INFO] 2022-04-29 08:10:10,845: publisherUpdate[/rosout] -> http://ubuntu:39497/ ['http://ubuntu:35851/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-29 08:10:10,845: publisherUpdate[/turtle1/cmd_vel] -> http://ubuntu:35851/ []
+[rosmaster.master][INFO] 2022-04-29 08:10:10,846: publisherUpdate[/turtle1/cmd_vel] -> http://ubuntu:35851/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2022-04-29 08:10:10,847: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1099, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 913, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 875, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 852, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2022-04-29 08:10:11,555: -PUB [/rosout_agg] /rosout http://ubuntu:39497/
+[rosmaster.master][INFO] 2022-04-29 08:10:11,557: -SUB [/rosout] /rosout http://ubuntu:39497/
+[rosmaster.master][INFO] 2022-04-29 08:10:11,559: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:57777
+[rosmaster.master][INFO] 2022-04-29 08:10:11,561: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:57777
+[rosmaster.main][INFO] 2022-04-29 08:10:11,617: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-04-29 08:10:11,617: stopping master...
+[rospy.core][INFO] 2022-04-29 08:10:11,617: signal_shutdown [atexit]

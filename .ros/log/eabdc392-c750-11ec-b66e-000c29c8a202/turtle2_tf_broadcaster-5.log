@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2022-04-29 08:11:31,788: init_node, name[/turtle2_tf_broadcaster], pid[3152]
+[xmlrpc][INFO] 2022-04-29 08:11:31,789: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-29 08:11:31,790: Started XML-RPC server [http://ubuntu:41939/]
+[rospy.impl.masterslave][INFO] 2022-04-29 08:11:31,790: _ready: http://ubuntu:41939/
+[rospy.init][INFO] 2022-04-29 08:11:31,791: ROS Slave URI: [http://ubuntu:41939/]
+[xmlrpc][INFO] 2022-04-29 08:11:31,792: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-29 08:11:31,793: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-29 08:11:31,893: registered with master
+[rospy.rosout][INFO] 2022-04-29 08:11:31,893: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-29 08:11:31,897: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-29 08:11:31,900: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-29 08:11:32,084: topic[/turtle2/pose] adding connection to [http://ubuntu:44907/], count 0
+[rospy.internal][INFO] 2022-04-29 08:11:32,179: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-04-29 08:11:32,220: topic[/tf] adding connection to [/turtle_pointer], count 0
+[rospy.internal][INFO] 2022-04-29 08:31:12,170: topic[/tf] adding connection to [/view_frames_3980_1651192271913], count 1
+[rospy.internal][INFO] 2022-04-29 08:31:17,287: topic[/tf] removing connection to /view_frames_3980_1651192271913
+[rospy.core][INFO] 2022-04-29 09:40:10,322: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-29 09:40:10,342: topic[/tf] removing connection to /turtle_pointer
+[rospy.internal][INFO] 2022-04-29 09:40:10,353: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-04-29 09:40:10,354: topic[/turtle2/pose] removing connection to http://ubuntu:44907/
+[rospy.impl.masterslave][INFO] 2022-04-29 09:40:10,355: signal-2
+[rospy.core][INFO] 2022-04-29 09:40:10,980: signal_shutdown [atexit]

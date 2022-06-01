@@ -1,0 +1,553 @@
+[rosmaster.main][INFO] 2022-04-03 15:22:06,141: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-04-03 15:22:06,141: Starting ROS Master Node
+[xmlrpc][INFO] 2022-04-03 15:22:06,143: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-04-03 15:22:06,144: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-04-03 15:22:06,144: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-04-03 15:22:06,145: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-04-03 15:22:06,166: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,169: +PARAM [/roslaunch/uris/host_ubuntu__46779] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,378: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,378: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,379: +PARAM [/xbot/pitch_platform_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,379: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,379: +PARAM [/xbot/pitch_platform_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,379: +PARAM [/cmd_vel_mux/yaml_cfg_file] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,379: +PARAM [/xbot/yaw_platform_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,380: +PARAM [/xbot/yaw_platform_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,380: +PARAM [/xbot/pitch_platform_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,380: +PARAM [/xbot/joint_state_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,380: +PARAM [/xbot/pitch_platform_position_controller/pid/i] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,380: +PARAM [/xbot/yaw_platform_position_controller/joint] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,380: +PARAM [/xbot/robot_state_publisher/publish_frequency] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,380: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,381: +PARAM [/xbot/joint_state_controller/publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,381: +PARAM [/xbot/yaw_platform_position_controller/type] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,381: +PARAM [/xbot/yaw_platform_position_controller/pid/p] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,381: +PARAM [/xbot/pitch_platform_position_controller/pid/d] by /roslaunch
+[rosmaster.master][INFO] 2022-04-03 15:22:06,395: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:36771/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,397: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:36771/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,423: +SUB [/clock] /rosout http://ubuntu:36771/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,427: +PUB [/rosout_agg] /rosout http://ubuntu:36771/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,442: +SUB [/rosout] /rosout http://ubuntu:36771/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,527: +PUB [/rosout] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,542: +SERVICE [/xbot/robot_state_publisher/get_loggers] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,546: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/']
+[rosmaster.master][INFO] 2022-04-03 15:22:06,558: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:06,586: +SERVICE [/xbot/robot_state_publisher/set_logger_level] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,590: +PUB [/rosout] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,596: +SERVICE [/cmd_vel_mux/get_loggers] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,602: +SERVICE [/cmd_vel_mux/set_logger_level] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,643: +SUB [/clock] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,652: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/']
+[rosmaster.master][INFO] 2022-04-03 15:22:06,661: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:06,662: +PUB [/rosout] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,665: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/']
+[rosmaster.master][INFO] 2022-04-03 15:22:06,671: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:06,671: +SERVICE [/mobile_base_nodelet_manager/get_loggers] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,676: +SUB [/clock] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,680: +PUB [/tf] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,681: +SERVICE [/mobile_base_nodelet_manager/set_logger_level] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,685: +PUB [/tf_static] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,690: +PARAM [/cmd_vel_mux] by /cmd_vel_mux
+[rosmaster.master][INFO] 2022-04-03 15:22:06,721: +SUB [/clock] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,732: +SERVICE [/mobile_base_nodelet_manager/load_nodelet] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,737: +SERVICE [/mobile_base_nodelet_manager/unload_nodelet] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,739: +SUB [/xbot/joint_states] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,742: +SERVICE [/mobile_base_nodelet_manager/list] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,757: +SERVICE [/cmd_vel_mux/set_parameters] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,759: +PUB [/cmd_vel_mux/parameter_descriptions] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,761: +PUB [/cmd_vel_mux/parameter_updates] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,766: +PARAM [/cmd_vel_mux/yaml_cfg_file] by /mobile_base_nodelet_manager
+[rosmaster.master][INFO] 2022-04-03 15:22:06,768: +PARAM [/cmd_vel_mux/yaml_cfg_data] by /mobile_base_nodelet_manager
+[rosmaster.master][INFO] 2022-04-03 15:22:06,774: +PUB [/cmd_vel] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,785: +SUB [/cmd_vel_mux/input/teleop] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,798: +SUB [/cmd_vel_mux/input/safety_controller] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,809: +SUB [/cmd_vel_mux/input/avoid] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,821: +SUB [/cmd_vel_mux/input/switch] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,832: +SUB [/cmd_vel_mux/input/navi] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,834: +PARAM [/cmd_vel_mux/yaml_cfg_file] by /mobile_base_nodelet_manager
+[rosmaster.master][INFO] 2022-04-03 15:22:06,837: +PARAM [/cmd_vel_mux/yaml_cfg_data] by /mobile_base_nodelet_manager
+[rosmaster.master][INFO] 2022-04-03 15:22:06,839: +PUB [/cmd_vel_mux/active] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,842: +PUB [/mobile_base_nodelet_manager/bond] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,854: +SUB [/mobile_base_nodelet_manager/bond] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,876: +PUB [/mobile_base_nodelet_manager/bond] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:22:06,876: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://ubuntu:34425/ ['http://ubuntu:34425/', 'http://ubuntu:40437/']
+[rosmaster.master][INFO] 2022-04-03 15:22:06,881: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://ubuntu:34425/ ['http://ubuntu:34425/', 'http://ubuntu:40437/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:06,889: +SUB [/mobile_base_nodelet_manager/bond] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,035: +PUB [/rosout] /xbot/spawner http://ubuntu:34307/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,044: +SUB [/clock] /xbot/spawner http://ubuntu:34307/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,048: +SERVICE [/xbot/spawner/get_loggers] /xbot/spawner http://ubuntu:34307/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,051: +SERVICE [/xbot/spawner/set_logger_level] /xbot/spawner http://ubuntu:34307/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,066: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/']
+[rosmaster.master][INFO] 2022-04-03 15:22:07,068: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:07,264: +PUB [/rosout] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,266: +SERVICE [/gazebo/get_loggers] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,268: +SERVICE [/gazebo/set_logger_level] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,270: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:07,274: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:07,283: +SUB [/clock] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,307: +PUB [/rosout] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,310: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,319: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,341: +SUB [/clock] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:22:07,375: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:41659/']
+[rosmaster.master][INFO] 2022-04-03 15:22:07,377: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:41659/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:08,185: +PUB [/clock] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,186: publisherUpdate[/clock] -> http://ubuntu:36771/ ['http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:08,188: publisherUpdate[/clock] -> http://ubuntu:36771/ ['http://ubuntu:34653/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:08,189: publisherUpdate[/clock] -> http://ubuntu:33467/ ['http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:08,189: publisherUpdate[/clock] -> http://ubuntu:40437/ ['http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:08,194: publisherUpdate[/clock] -> http://ubuntu:34425/ ['http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:08,198: publisherUpdate[/clock] -> http://ubuntu:40437/ ['http://ubuntu:34653/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:08,198: publisherUpdate[/clock] -> http://ubuntu:34307/ ['http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:08,199: publisherUpdate[/clock] -> http://ubuntu:33467/ ['http://ubuntu:34653/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:08,200: publisherUpdate[/clock] -> http://ubuntu:34425/ ['http://ubuntu:34653/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:08,202: publisherUpdate[/clock] -> http://ubuntu:34653/ ['http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:08,204: publisherUpdate[/clock] -> http://ubuntu:41659/ ['http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:08,206: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,207: publisherUpdate[/clock] -> http://ubuntu:34307/ ['http://ubuntu:34653/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:08,208: publisherUpdate[/clock] -> http://ubuntu:34653/ ['http://ubuntu:34653/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:08,211: publisherUpdate[/clock] -> http://ubuntu:41659/ ['http://ubuntu:34653/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:08,211: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,214: +SERVICE [/gazebo/delete_model] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,216: +SERVICE [/gazebo/delete_light] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,221: +SERVICE [/gazebo/get_model_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,223: +SERVICE [/gazebo/get_model_state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,224: +SERVICE [/gazebo/get_world_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,227: +SERVICE [/gazebo/get_joint_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,229: +SERVICE [/gazebo/get_link_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,232: +SERVICE [/gazebo/get_link_state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,233: +SERVICE [/gazebo/get_light_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,235: +SERVICE [/gazebo/set_light_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,237: +SERVICE [/gazebo/get_physics_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,239: +PUB [/gazebo/link_states] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,240: +PUB [/gazebo/model_states] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,243: +SERVICE [/gazebo/set_link_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,245: +SERVICE [/gazebo/set_physics_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,247: +SERVICE [/gazebo/set_model_state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,252: +SERVICE [/gazebo/set_model_configuration] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,256: +SERVICE [/gazebo/set_joint_properties] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,258: +SERVICE [/gazebo_gui/set_parameters] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,260: +SERVICE [/gazebo/set_link_state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,262: +PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,269: +PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,286: +SERVICE [/gazebo/set_parameters] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,299: +SUB [/gazebo/set_link_state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,336: +SUB [/gazebo/set_model_state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,344: +SERVICE [/gazebo/pause_physics] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,353: +PUB [/gazebo/parameter_descriptions] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,357: +SERVICE [/gazebo/unpause_physics] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,360: +PUB [/gazebo/parameter_updates] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,365: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,372: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,377: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,382: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,384: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,390: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,391: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,397: +SERVICE [/gazebo/reset_simulation] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,400: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,404: +SERVICE [/gazebo/reset_world] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,409: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,416: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,423: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,434: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,436: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,438: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,441: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,443: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,447: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,452: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,454: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,459: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,461: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,465: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,468: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,473: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,480: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,484: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,488: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,491: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,493: +PARAM [/gazebo_gui/time_step] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,496: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,499: +PARAM [/gazebo_gui/max_update_rate] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,502: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,505: +PARAM [/gazebo_gui/gravity_x] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,508: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,509: +PARAM [/gazebo_gui/gravity_y] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,513: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,515: +PARAM [/gazebo_gui/gravity_z] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,519: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,521: +PARAM [/gazebo_gui/auto_disable_bodies] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,523: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,530: +PARAM [/gazebo_gui/sor_pgs_precon_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,533: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,534: +PARAM [/gazebo_gui/sor_pgs_iters] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,536: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,538: +PARAM [/gazebo_gui/sor_pgs_w] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,542: +PARAM [/gazebo_gui/sor_pgs_rms_error_tol] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,543: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,546: +PARAM [/gazebo_gui/cfm] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,549: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,551: +PARAM [/gazebo_gui/erp] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,555: +PARAM [/gazebo_gui/contact_surface_layer] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,556: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,559: +PARAM [/gazebo_gui/contact_max_correcting_vel] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,561: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,569: +PARAM [/gazebo_gui/max_contacts] by /gazebo_gui
+[rosmaster.master][INFO] 2022-04-03 15:22:08,576: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,579: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,582: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,584: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,587: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,589: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,592: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,594: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,597: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:08,636: +PUB [/rosout] /urdf_spawner http://ubuntu:46675/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,651: +SUB [/clock] /urdf_spawner http://ubuntu:46675/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,657: +SERVICE [/urdf_spawner/get_loggers] /urdf_spawner http://ubuntu:46675/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,661: +SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner http://ubuntu:46675/
+[rosmaster.master][INFO] 2022-04-03 15:22:08,715: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:41659/', 'http://ubuntu:46675/']
+[rosmaster.master][INFO] 2022-04-03 15:22:08,717: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:41659/', 'http://ubuntu:46675/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:10,369: +PUB [/imu] /gazebo http://ubuntu:34653/
+[rosmaster.master][ERROR] 2022-04-03 15:22:11,226: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2022-04-03 15:22:11,228: +PUB [/scan] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,244: -SUB [/clock] /urdf_spawner http://ubuntu:46675/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,245: -PUB [/rosout] /urdf_spawner http://ubuntu:46675/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,245: -SERVICE [/urdf_spawner/set_logger_level] /urdf_spawner rosrpc://ubuntu:41949
+[rosmaster.master][INFO] 2022-04-03 15:22:11,246: -SERVICE [/urdf_spawner/get_loggers] /urdf_spawner rosrpc://ubuntu:41949
+[rosmaster.master][INFO] 2022-04-03 15:22:11,317: +SERVICE [/camera/set_camera_info] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,325: +SERVICE [/camera/set_parameters] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,329: +PUB [/camera/parameter_descriptions] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,331: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:41659/']
+[rosmaster.master][INFO] 2022-04-03 15:22:11,335: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:41659/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:11,335: +PUB [/camera/parameter_updates] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,343: +PARAM [/camera/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,346: +PARAM [/camera/imager_rate] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,492: +PUB [/camera/rgb/image_raw/compressedDepth] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,497: +SERVICE [/camera/rgb/image_raw/compressedDepth/set_parameters] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,500: +PUB [/camera/rgb/image_raw/compressedDepth/parameter_descriptions] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,504: +PUB [/camera/rgb/image_raw/compressedDepth/parameter_updates] /gazebo http://ubuntu:34653/
+[rosmaster.master][ERROR] 2022-04-03 15:22:11,511: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2022-04-03 15:22:11,515: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,517: +PUB [/joint_states] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,519: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,522: +PUB [/tf] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,523: +PARAM [/camera/rgb/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,538: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,544: +PARAM [/camera/rgb/image_raw/compressedDepth/depth_quantization] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,545: +SUB [/cmd_vel] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,555: +PARAM [/camera/rgb/image_raw/compressedDepth/png_level] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,558: +PUB [/odom] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,565: +PUB [/camera/rgb/image_raw/compressed] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,568: +SERVICE [/camera/rgb/image_raw/compressed/set_parameters] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,570: +PUB [/camera/rgb/image_raw/compressed/parameter_descriptions] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,572: +PUB [/camera/rgb/image_raw/compressed/parameter_updates] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,581: +PARAM [/camera/rgb/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,583: +PARAM [/camera/rgb/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,585: +PARAM [/camera/rgb/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,589: +PARAM [/camera/rgb/image_raw/compressed/format] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,593: +PARAM [/camera/rgb/image_raw/compressed/jpeg_quality] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,600: +PARAM [/camera/rgb/image_raw/compressed/png_level] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,606: +PUB [/camera/rgb/image_raw] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,612: +PUB [/camera/rgb/image_raw/theora] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,615: +SERVICE [/camera/rgb/image_raw/theora/set_parameters] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,617: +PUB [/camera/rgb/image_raw/theora/parameter_descriptions] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,618: +PUB [/camera/rgb/image_raw/theora/parameter_updates] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,635: +PARAM [/camera/rgb/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,637: +PARAM [/camera/rgb/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,638: +PARAM [/camera/rgb/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,640: +PARAM [/camera/rgb/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,642: +PARAM [/camera/rgb/image_raw/theora/optimize_for] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,644: +PARAM [/camera/rgb/image_raw/theora/target_bitrate] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,648: +PARAM [/camera/rgb/image_raw/theora/quality] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,650: +PARAM [/camera/rgb/image_raw/theora/keyframe_frequency] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:11,654: +PUB [/camera/rgb/camera_info] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,657: +PUB [/camera/depth/points] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,659: +PUB [/camera/depth/image_raw] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,662: +PUB [/camera/depth/camera_info] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,722: +SERVICE [/xbot/controller_manager/list_controllers] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,724: +SERVICE [/xbot/controller_manager/list_controller_types] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,726: +SERVICE [/xbot/controller_manager/load_controller] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,728: +SERVICE [/xbot/controller_manager/unload_controller] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,730: +SERVICE [/xbot/controller_manager/switch_controller] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,736: +SERVICE [/xbot/controller_manager/reload_controller_libraries] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:11,985: +PUB [/xbot/joint_states] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,035: publisherUpdate[/xbot/joint_states] -> http://ubuntu:33467/ ['http://ubuntu:34653/']
+[rosmaster.master][INFO] 2022-04-03 15:22:12,038: publisherUpdate[/xbot/joint_states] -> http://ubuntu:33467/ ['http://ubuntu:34653/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:22:12,067: +SERVICE [/xbot/yaw_platform_position_controller/pid/set_parameters] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,071: +PUB [/xbot/yaw_platform_position_controller/pid/parameter_descriptions] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,074: +PUB [/xbot/yaw_platform_position_controller/pid/parameter_updates] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,093: +PARAM [/xbot/yaw_platform_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,095: +PARAM [/xbot/yaw_platform_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,098: +PARAM [/xbot/yaw_platform_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,101: +PARAM [/xbot/yaw_platform_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,103: +PARAM [/xbot/yaw_platform_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,105: +PARAM [/xbot/yaw_platform_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,107: +PARAM [/xbot/yaw_platform_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,112: +PARAM [/xbot/yaw_platform_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,115: +PARAM [/xbot/yaw_platform_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,118: +PARAM [/xbot/yaw_platform_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,121: +PARAM [/xbot/yaw_platform_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,128: +PARAM [/xbot/yaw_platform_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,130: +PARAM [/xbot/yaw_platform_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,133: +PARAM [/xbot/yaw_platform_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,139: +PARAM [/xbot/yaw_platform_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,142: +PARAM [/xbot/yaw_platform_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,144: +PARAM [/xbot/yaw_platform_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,149: +PARAM [/xbot/yaw_platform_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,154: +PARAM [/xbot/yaw_platform_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,156: +PARAM [/xbot/yaw_platform_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,158: +PARAM [/xbot/yaw_platform_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,160: +PARAM [/xbot/yaw_platform_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,164: +PARAM [/xbot/yaw_platform_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,167: +PARAM [/xbot/yaw_platform_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,170: +PUB [/xbot/yaw_platform_position_controller/state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,185: +SUB [/xbot/yaw_platform_position_controller/command] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,229: +SERVICE [/xbot/pitch_platform_position_controller/pid/set_parameters] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,232: +PUB [/xbot/pitch_platform_position_controller/pid/parameter_descriptions] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,234: +PUB [/xbot/pitch_platform_position_controller/pid/parameter_updates] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,257: +PARAM [/xbot/pitch_platform_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,260: +PARAM [/xbot/pitch_platform_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,263: +PARAM [/xbot/pitch_platform_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,266: +PARAM [/xbot/pitch_platform_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,269: +PARAM [/xbot/pitch_platform_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,273: +PARAM [/xbot/pitch_platform_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,277: +PARAM [/xbot/pitch_platform_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,281: +PARAM [/xbot/pitch_platform_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,284: +PARAM [/xbot/pitch_platform_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,287: +PARAM [/xbot/pitch_platform_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,289: +PARAM [/xbot/pitch_platform_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,291: +PARAM [/xbot/pitch_platform_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,294: +PARAM [/xbot/pitch_platform_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,297: +PARAM [/xbot/pitch_platform_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,300: +PARAM [/xbot/pitch_platform_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,302: +PARAM [/xbot/pitch_platform_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,304: +PARAM [/xbot/pitch_platform_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,307: +PARAM [/xbot/pitch_platform_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,311: +PARAM [/xbot/pitch_platform_position_controller/pid/p] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,313: +PARAM [/xbot/pitch_platform_position_controller/pid/i] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,316: +PARAM [/xbot/pitch_platform_position_controller/pid/d] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,318: +PARAM [/xbot/pitch_platform_position_controller/pid/i_clamp_min] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,321: +PARAM [/xbot/pitch_platform_position_controller/pid/i_clamp_max] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,324: +PARAM [/xbot/pitch_platform_position_controller/pid/antiwindup] by /gazebo
+[rosmaster.master][INFO] 2022-04-03 15:22:12,327: +PUB [/xbot/pitch_platform_position_controller/state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:22:12,347: +SUB [/xbot/pitch_platform_position_controller/command] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:27:30,096: +PUB [/rosout] /robot_teleop http://ubuntu:40323/
+[rosmaster.master][INFO] 2022-04-03 15:27:30,101: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:41659/', 'http://ubuntu:40323/']
+[rosmaster.master][INFO] 2022-04-03 15:27:30,103: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:41659/', 'http://ubuntu:40323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:27:30,108: +SUB [/clock] /robot_teleop http://ubuntu:40323/
+[rosmaster.master][INFO] 2022-04-03 15:27:30,112: +SERVICE [/robot_teleop/get_loggers] /robot_teleop http://ubuntu:40323/
+[rosmaster.master][INFO] 2022-04-03 15:27:30,116: +SERVICE [/robot_teleop/set_logger_level] /robot_teleop http://ubuntu:40323/
+[rosmaster.master][INFO] 2022-04-03 15:27:30,119: +PUB [/cmd_vel_mux/input/teleop] /robot_teleop http://ubuntu:40323/
+[rosmaster.master][INFO] 2022-04-03 15:27:30,147: publisherUpdate[/cmd_vel_mux/input/teleop] -> http://ubuntu:34425/ ['http://ubuntu:40323/']
+[rosmaster.master][INFO] 2022-04-03 15:27:30,149: publisherUpdate[/cmd_vel_mux/input/teleop] -> http://ubuntu:34425/ ['http://ubuntu:40323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:06,925: -PUB [/gazebo_gui/parameter_descriptions] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:29:06,927: -PUB [/gazebo_gui/parameter_updates] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:29:06,930: -SERVICE [/gazebo_gui/set_parameters] /gazebo_gui rosrpc://ubuntu:48259
+[rosmaster.master][INFO] 2022-04-03 15:29:07,009: -PUB [/rosout] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:29:07,011: -SUB [/clock] /gazebo_gui http://ubuntu:41659/
+[rosmaster.master][INFO] 2022-04-03 15:29:07,014: -SERVICE [/gazebo_gui/get_loggers] /gazebo_gui rosrpc://ubuntu:48259
+[rosmaster.master][INFO] 2022-04-03 15:29:07,016: -SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui rosrpc://ubuntu:48259
+[rosmaster.master][INFO] 2022-04-03 15:29:07,042: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:40323/']
+[rosmaster.master][INFO] 2022-04-03 15:29:07,044: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34425/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:40323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,297: -PUB [/rosout] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,299: -PUB [/cmd_vel_mux/parameter_descriptions] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,301: -PUB [/cmd_vel_mux/parameter_updates] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,302: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:40323/']
+[rosmaster.master][INFO] 2022-04-03 15:29:16,304: -PUB [/cmd_vel] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,305: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:33467/', 'http://ubuntu:40437/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:40323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,306: publisherUpdate[/cmd_vel] -> http://ubuntu:34653/ []
+[rosmaster.master][INFO] 2022-04-03 15:29:16,308: -PUB [/cmd_vel_mux/active] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,311: publisherUpdate[/cmd_vel] -> http://ubuntu:34653/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,312: -PUB [/mobile_base_nodelet_manager/bond] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,313: -SUB [/clock] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,315: -SUB [/cmd_vel_mux/input/teleop] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,317: -SUB [/cmd_vel_mux/input/safety_controller] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,319: -SUB [/cmd_vel_mux/input/avoid] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,320: -SUB [/cmd_vel_mux/input/switch] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,322: -SUB [/cmd_vel_mux/input/navi] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,324: -SUB [/mobile_base_nodelet_manager/bond] /mobile_base_nodelet_manager http://ubuntu:34425/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,326: -SERVICE [/mobile_base_nodelet_manager/get_loggers] /mobile_base_nodelet_manager rosrpc://ubuntu:60429
+[rosmaster.master][INFO] 2022-04-03 15:29:16,328: -SERVICE [/mobile_base_nodelet_manager/set_logger_level] /mobile_base_nodelet_manager rosrpc://ubuntu:60429
+[rosmaster.master][INFO] 2022-04-03 15:29:16,330: -SERVICE [/mobile_base_nodelet_manager/load_nodelet] /mobile_base_nodelet_manager rosrpc://ubuntu:60429
+[rosmaster.master][INFO] 2022-04-03 15:29:16,332: -SERVICE [/mobile_base_nodelet_manager/unload_nodelet] /mobile_base_nodelet_manager rosrpc://ubuntu:60429
+[rosmaster.master][INFO] 2022-04-03 15:29:16,334: -SERVICE [/mobile_base_nodelet_manager/list] /mobile_base_nodelet_manager rosrpc://ubuntu:60429
+[rosmaster.master][INFO] 2022-04-03 15:29:16,335: -SERVICE [/cmd_vel_mux/set_parameters] /mobile_base_nodelet_manager rosrpc://ubuntu:60429
+[rosmaster.master][INFO] 2022-04-03 15:29:16,337: -PUB [/rosout] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,340: -PUB [/tf] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,342: -PUB [/tf_static] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,344: -SUB [/clock] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,346: -SUB [/xbot/joint_states] /xbot/robot_state_publisher http://ubuntu:33467/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,349: -SERVICE [/xbot/robot_state_publisher/get_loggers] /xbot/robot_state_publisher rosrpc://ubuntu:59673
+[rosmaster.master][INFO] 2022-04-03 15:29:16,351: -SERVICE [/xbot/robot_state_publisher/set_logger_level] /xbot/robot_state_publisher rosrpc://ubuntu:59673
+[rosmaster.master][INFO] 2022-04-03 15:29:16,378: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://ubuntu:34425/ ['http://ubuntu:40437/']
+[rosmaster.master][INFO] 2022-04-03 15:29:16,379: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://ubuntu:40437/ ['http://ubuntu:40437/']
+[rosmaster.master][INFO] 2022-04-03 15:29:16,381: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://ubuntu:34425/ ['http://ubuntu:40437/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2022-04-03 15:29:16,383: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2022-04-03 15:29:16,383: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:40437/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:40323/']
+[rosmaster.master][INFO] 2022-04-03 15:29:16,384: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:40437/', 'http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:40323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,386: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://ubuntu:40437/ ['http://ubuntu:40437/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,430: -SUB [/gazebo/set_link_state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,432: -SUB [/gazebo/set_model_state] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,434: -PUB [/clock] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,436: -PUB [/gazebo/link_states] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,438: -PUB [/gazebo/model_states] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,441: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,443: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,445: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,447: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,449: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,451: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,453: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,454: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,456: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,458: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,459: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,461: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,463: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,465: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,467: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,469: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,471: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,473: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,474: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,477: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,479: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,481: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,483: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,485: publisherUpdate[/clock] -> http://ubuntu:36771/ []
+[rosmaster.master][INFO] 2022-04-03 15:29:16,485: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,486: publisherUpdate[/clock] -> http://ubuntu:40437/ []
+[rosmaster.master][INFO] 2022-04-03 15:29:16,487: publisherUpdate[/clock] -> http://ubuntu:36771/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,489: -PUB [/rosout] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,491: publisherUpdate[/clock] -> http://ubuntu:34307/ []
+[rosmaster.master][INFO] 2022-04-03 15:29:16,492: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,495: -PUB [/mobile_base_nodelet_manager/bond] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,496: publisherUpdate[/clock] -> http://ubuntu:34307/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2022-04-03 15:29:16,498: publisherUpdate[/clock] -> http://ubuntu:40437/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2022-04-03 15:29:16,502: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://ubuntu:34273
+[rosmaster.threadpool][ERROR] 2022-04-03 15:29:16,502: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2022-04-03 15:29:16,504: publisherUpdate[/clock] -> http://ubuntu:34653/ []
+[rosmaster.master][INFO] 2022-04-03 15:29:16,505: -SUB [/clock] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.threadpool][ERROR] 2022-04-03 15:29:16,507: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1099, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 913, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 875, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 852, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2022-04-03 15:29:16,509: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:16,511: publisherUpdate[/clock] -> http://ubuntu:34653/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,511: publisherUpdate[/clock] -> http://ubuntu:40323/ []
+[rosmaster.master][INFO] 2022-04-03 15:29:16,512: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:40323/']
+[rosmaster.master][INFO] 2022-04-03 15:29:16,515: -SUB [/mobile_base_nodelet_manager/bond] /cmd_vel_mux http://ubuntu:40437/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,515: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://ubuntu:40437/ []
+[rosmaster.master][INFO] 2022-04-03 15:29:16,517: publisherUpdate[/rosout] -> http://ubuntu:36771/ ['http://ubuntu:34307/', 'http://ubuntu:34653/', 'http://ubuntu:40323/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,521: -PUB [/gazebo/parameter_descriptions] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,522: publisherUpdate[/mobile_base_nodelet_manager/bond] -> http://ubuntu:40437/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2022-04-03 15:29:16,521: publisherUpdate[/clock] -> http://ubuntu:40323/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-04-03 15:29:16,525: -SERVICE [/cmd_vel_mux/get_loggers] /cmd_vel_mux rosrpc://ubuntu:48965
+[rosmaster.threadpool][ERROR] 2022-04-03 15:29:16,527: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2022-04-03 15:29:16,529: -PUB [/gazebo/parameter_updates] /gazebo http://ubuntu:34653/
+[rosmaster.master][INFO] 2022-04-03 15:29:16,531: -SERVICE [/cmd_vel_mux/set_logger_level] /cmd_vel_mux rosrpc://ubuntu:48965
+[rosmaster.master][INFO] 2022-04-03 15:29:16,533: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://ubuntu:34273
+[rosmaster.master][INFO] 2022-04-03 15:29:31,390: -PUB [/rosout_agg] /rosout http://ubuntu:36771/
+[rosmaster.master][INFO] 2022-04-03 15:29:31,392: -SUB [/clock] /rosout http://ubuntu:36771/
+[rosmaster.master][INFO] 2022-04-03 15:29:31,394: -SUB [/rosout] /rosout http://ubuntu:36771/
+[rosmaster.master][INFO] 2022-04-03 15:29:31,396: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:43911
+[rosmaster.master][INFO] 2022-04-03 15:29:31,398: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:43911
+[rosmaster.main][INFO] 2022-04-03 15:29:31,536: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-04-03 15:29:31,536: stopping master...
+[rospy.core][INFO] 2022-04-03 15:29:31,536: signal_shutdown [atexit]

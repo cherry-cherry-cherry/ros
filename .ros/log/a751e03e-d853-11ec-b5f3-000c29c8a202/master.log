@@ -1,0 +1,58 @@
+[rosmaster.main][INFO] 2022-05-20 23:43:55,111: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-05-20 23:43:55,112: Starting ROS Master Node
+[xmlrpc][INFO] 2022-05-20 23:43:55,114: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-05-20 23:43:55,114: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-05-20 23:43:55,114: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-05-20 23:43:55,115: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-05-20 23:43:55,204: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-05-20 23:43:55,207: +PARAM [/roslaunch/uris/host_ubuntu__40689] by /roslaunch
+[rosmaster.master][INFO] 2022-05-20 23:43:55,339: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-05-20 23:43:55,339: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-05-20 23:43:55,339: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2022-05-20 23:43:55,348: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:41237/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,350: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:41237/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,354: +PUB [/rosout_agg] /rosout http://ubuntu:41237/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,367: +SUB [/rosout] /rosout http://ubuntu:41237/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,454: +PUB [/rosout] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,455: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,456: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,516: publisherUpdate[/rosout] -> http://ubuntu:41237/ ['http://ubuntu:42445/']
+[rosmaster.master][INFO] 2022-05-20 23:43:55,519: publisherUpdate[/rosout] -> http://ubuntu:41237/ ['http://ubuntu:42445/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-20 23:43:55,561: +PUB [/tf] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,563: +PUB [/tf_static] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,577: +SUB [/joint_states] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,761: +PUB [/rosout] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,763: +SERVICE [/rviz/get_loggers] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,764: +SERVICE [/rviz/set_logger_level] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:55,818: publisherUpdate[/rosout] -> http://ubuntu:41237/ ['http://ubuntu:42445/', 'http://ubuntu:46243/']
+[rosmaster.master][INFO] 2022-05-20 23:43:55,820: publisherUpdate[/rosout] -> http://ubuntu:41237/ ['http://ubuntu:42445/', 'http://ubuntu:46243/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-20 23:43:56,033: +SUB [/tf] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:56,039: +SUB [/tf_static] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:56,145: +PUB [/initialpose] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:56,148: +PUB [/goal] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:56,407: -PUB [/goal] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:56,409: -PUB [/initialpose] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:43:56,701: +SERVICE [/rviz/reload_shaders] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,252: -PUB [/rosout] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,255: -SUB [/tf] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,258: publisherUpdate[/rosout] -> http://ubuntu:41237/ ['http://ubuntu:42445/']
+[rosmaster.master][INFO] 2022-05-20 23:49:04,259: -SUB [/tf_static] /rviz http://ubuntu:46243/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,262: -SERVICE [/rviz/get_loggers] /rviz rosrpc://ubuntu:53955
+[rosmaster.master][INFO] 2022-05-20 23:49:04,263: publisherUpdate[/rosout] -> http://ubuntu:41237/ ['http://ubuntu:42445/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-20 23:49:04,267: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://ubuntu:53955
+[rosmaster.master][INFO] 2022-05-20 23:49:04,269: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://ubuntu:53955
+[rosmaster.master][INFO] 2022-05-20 23:49:04,353: -PUB [/rosout] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,355: -PUB [/tf] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,361: -PUB [/tf_static] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,363: -SUB [/joint_states] /robot_state_publisher http://ubuntu:42445/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,365: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://ubuntu:52259
+[rosmaster.master][INFO] 2022-05-20 23:49:04,366: publisherUpdate[/rosout] -> http://ubuntu:41237/ []
+[rosmaster.master][INFO] 2022-05-20 23:49:04,369: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://ubuntu:52259
+[rosmaster.master][INFO] 2022-05-20 23:49:04,370: publisherUpdate[/rosout] -> http://ubuntu:41237/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-20 23:49:04,674: -PUB [/rosout_agg] /rosout http://ubuntu:41237/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,676: -SUB [/rosout] /rosout http://ubuntu:41237/
+[rosmaster.master][INFO] 2022-05-20 23:49:04,678: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ubuntu:35621
+[rosmaster.master][INFO] 2022-05-20 23:49:04,680: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ubuntu:35621
+[rosmaster.main][INFO] 2022-05-20 23:49:04,756: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-05-20 23:49:04,756: stopping master...
+[rospy.core][INFO] 2022-05-20 23:49:04,756: signal_shutdown [atexit]

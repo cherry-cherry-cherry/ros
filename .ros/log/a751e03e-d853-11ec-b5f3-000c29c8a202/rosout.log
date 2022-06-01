@@ -1,0 +1,4 @@
+
+
+1653061435.353129519  Node Startup
+1653061435.982518432 INFO [/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp:222(RenderSystem::detectGlVersion) [topics: /rosout] OpenGl version: 3 (GLSL 1.3).

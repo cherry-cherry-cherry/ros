@@ -1,0 +1,36 @@
+[rospy.client][INFO] 2022-05-20 23:49:53,471: init_node, name[/turtle1_tf_broadcaster], pid[6090]
+[xmlrpc][INFO] 2022-05-20 23:49:53,471: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-20 23:49:53,472: ROS Slave URI: [http://ubuntu:39607/]
+[xmlrpc][INFO] 2022-05-20 23:49:53,472: Started XML-RPC server [http://ubuntu:39607/]
+[rospy.impl.masterslave][INFO] 2022-05-20 23:49:53,472: _ready: http://ubuntu:39607/
+[xmlrpc][INFO] 2022-05-20 23:49:53,473: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-20 23:49:53,473: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-05-20 23:49:53,573: registered with master
+[rospy.rosout][INFO] 2022-05-20 23:49:53,573: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-20 23:49:53,576: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-20 23:49:53,578: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-20 23:49:53,598: topic[/turtle1/pose] adding connection to [http://ubuntu:35565/], count 0
+[rospy.internal][INFO] 2022-05-20 23:49:53,650: topic[/tf] adding connection to [/turtle_pointer], count 0
+[rospy.internal][INFO] 2022-05-20 23:49:53,836: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-05-20 23:49:54,101: Unable to initiate TCP/IP socket to ubuntu:39399 (http://ubuntu:35565/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 594, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/turtle1/pose] from [TCPROS connection on port 39399 to [127.0.0.1:51820 on socket 28]] [/turtle1_tf_broadcaster].
+
+[rospy.internal][WARNING] 2022-05-20 23:49:55,103: Unknown error initiating TCP/IP socket to ubuntu:39399 (http://ubuntu:35565/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 556, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-05-20 23:49:55,104: topic[/turtle1/pose] removing connection to http://ubuntu:35565/
+[rospy.core][INFO] 2022-05-20 23:50:08,453: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-20 23:50:08,472: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-20 23:50:08,473: topic[/tf] removing connection to /turtle_pointer
+[rospy.impl.masterslave][INFO] 2022-05-20 23:50:08,473: signal-2
+[rospy.core][INFO] 2022-05-20 23:50:08,608: signal_shutdown [atexit]

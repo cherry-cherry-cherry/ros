@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2022-04-03 15:22:06,919: init_node, name[/xbot/spawner], pid[6933]
+[xmlrpc][INFO] 2022-04-03 15:22:06,920: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-03 15:22:06,920: Started XML-RPC server [http://ubuntu:34307/]
+[rospy.impl.masterslave][INFO] 2022-04-03 15:22:06,921: _ready: http://ubuntu:34307/
+[xmlrpc][INFO] 2022-04-03 15:22:06,922: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-04-03 15:22:06,922: ROS Slave URI: [http://ubuntu:34307/]
+[rospy.registration][INFO] 2022-04-03 15:22:06,923: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-03 15:22:07,031: registered with master
+[rospy.rosout][INFO] 2022-04-03 15:22:07,032: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-03 15:22:07,036: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-03 15:22:07,039: initializing /clock core topic
+[rospy.simtime][INFO] 2022-04-03 15:22:07,045: connected to core topic /clock
+[rosout][INFO] 2022-04-03 15:22:07,052: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2022-04-03 15:22:07,271: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-04-03 15:22:08,215: topic[/clock] adding connection to [http://ubuntu:34653/], count 0
+[rosout][INFO] 2022-04-03 15:22:11,933: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2022-04-03 15:22:11,939: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2022-04-03 15:22:11,947: Loading controller: joint_state_controller
+[rosout][INFO] 2022-04-03 15:22:11,995: Loading controller: yaw_platform_position_controller
+[rosout][INFO] 2022-04-03 15:22:12,194: Loading controller: pitch_platform_position_controller
+[rosout][INFO] 2022-04-03 15:22:12,360: Controller Spawner: Loaded controllers: joint_state_controller, yaw_platform_position_controller, pitch_platform_position_controller
+[rosout][INFO] 2022-04-03 15:22:12,371: Started controllers: joint_state_controller, yaw_platform_position_controller, pitch_platform_position_controller
+[rospy.core][INFO] 2022-04-03 15:29:16,213: signal_shutdown [signal-2]
+[rospy.core][INFO] 2022-04-03 15:29:16,215: signal_shutdown [atexit]

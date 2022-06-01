@@ -1,0 +1,6 @@
+
+
+1653058722.882772127  Node Startup
+1653058723.960451360 INFO [/tmp/binarydeb/ros-kinetic-turtlesim-0.7.1/src/turtle_frame.cpp:97(TurtleFrame::TurtleFrame) [topics: /rosout] Starting turtlesim with node name /sim
+1653058723.975209838 INFO [/tmp/binarydeb/ros-kinetic-turtlesim-0.7.1/src/turtle_frame.cpp:184(__cxx11::string turtlesim::TurtleFrame::spawnTurtle) [topics: /rosout, /turtle1/pose, /turtle1/color_sensor] Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+1653058729.861977096 INFO [/tmp/binarydeb/ros-kinetic-turtlesim-0.7.1/src/turtle_frame.cpp:184(__cxx11::string turtlesim::TurtleFrame::spawnTurtle) [topics: /rosout, /turtle1/pose, /turtle1/color_sensor, /turtle2/pose, /turtle2/color_sensor] Spawning turtle [turtle2] at x=[4.000000], y=[2.000000], theta=[0.000000]

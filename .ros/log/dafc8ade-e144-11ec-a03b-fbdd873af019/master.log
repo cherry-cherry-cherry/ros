@@ -1,0 +1,20 @@
+[rosmaster.main][INFO] 2022-06-01 08:50:39,702: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-06-01 08:50:39,702: Starting ROS Master Node
+[xmlrpc][INFO] 2022-06-01 08:50:39,703: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-06-01 08:50:39,704: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-06-01 08:50:39,704: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-06-01 08:50:39,704: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-06-01 08:50:39,730: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-06-01 08:50:39,732: +PARAM [/roslaunch/uris/host_ubuntu__34135] by /roslaunch
+[rosmaster.master][INFO] 2022-06-01 08:50:39,895: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-06-01 08:50:39,895: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-06-01 08:50:39,930: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:46299/
+[rosmaster.master][INFO] 2022-06-01 08:50:39,931: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:46299/
+[rosmaster.master][INFO] 2022-06-01 08:50:39,934: +PUB [/rosout_agg] /rosout http://ubuntu:46299/
+[rosmaster.master][INFO] 2022-06-01 08:50:39,944: +SUB [/rosout] /rosout http://ubuntu:46299/
+[rosmaster.master][INFO] 2022-06-01 08:50:56,478: +PUB [/rosout] /world http://ubuntu:40591/
+[rosmaster.master][INFO] 2022-06-01 08:50:56,480: +SERVICE [/world/get_loggers] /world http://ubuntu:40591/
+[rosmaster.master][INFO] 2022-06-01 08:50:56,482: +SERVICE [/world/set_logger_level] /world http://ubuntu:40591/
+[rosmaster.master][INFO] 2022-06-01 08:50:56,486: +PUB [/chatter] /world http://ubuntu:40591/
+[rosmaster.master][INFO] 2022-06-01 08:50:56,545: publisherUpdate[/rosout] -> http://ubuntu:46299/ ['http://ubuntu:40591/']
+[rosmaster.master][INFO] 2022-06-01 08:50:56,548: publisherUpdate[/rosout] -> http://ubuntu:46299/ ['http://ubuntu:40591/']: sec=0.00, result=[1, '', 0]

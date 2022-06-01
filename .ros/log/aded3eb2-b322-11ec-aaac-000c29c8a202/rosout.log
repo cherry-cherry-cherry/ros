@@ -1,0 +1,10 @@
+
+
+1648972208.195340982  Node Startup
+1648972284.751971189 INFO [/tmp/binarydeb/ros-kinetic-turtlesim-0.7.1/src/turtle_frame.cpp:184(__cxx11::string turtlesim::TurtleFrame::spawnTurtle) [topics: /rosout, /turtle1/pose, /turtle1/color_sensor] Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
+1648972956.895204508 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.17/src/recorder.cpp:212(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /turtle1/pose
+1648973343.468250056 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.17/src/player.cpp:132(Player::publish) [topics: /rosout, /clock] Opening /home/ros/lvsipengbagfiles/2022-04-03-16-02-36.bag
+1648972956.876135325 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.17/src/recorder.cpp:212(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout
+1648972956.884173800 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.17/src/recorder.cpp:212(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /rosout_agg
+1648972956.895204508 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.17/src/recorder.cpp:212(shared_ptr<ros::Subscriber> rosbag::Recorder::subscribe) [topics: /rosout] Subscribing to /turtle1/pose
+1648972284.751971189 INFO [/tmp/binarydeb/ros-kinetic-turtlesim-0.7.1/src/turtle_frame.cpp:184(__cxx11::string turtlesim::TurtleFrame::spawnTurtle) [topics: /rosout, /turtle1/pose, /turtle1/color_sensor] Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]

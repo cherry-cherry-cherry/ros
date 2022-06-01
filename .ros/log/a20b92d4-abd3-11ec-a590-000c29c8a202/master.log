@@ -1,0 +1,47 @@
+[rosmaster.main][INFO] 2022-03-25 08:36:39,563: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-03-25 08:36:39,563: Starting ROS Master Node
+[xmlrpc][INFO] 2022-03-25 08:36:39,566: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-03-25 08:36:39,566: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-03-25 08:36:39,567: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-03-25 08:36:39,567: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-03-25 08:36:39,639: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-03-25 08:36:39,642: +PARAM [/roslaunch/uris/host_ubuntu__35653] by /roslaunch
+[rosmaster.master][INFO] 2022-03-25 08:36:39,830: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-03-25 08:36:39,830: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-03-25 08:36:39,840: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:34491/
+[rosmaster.master][INFO] 2022-03-25 08:36:39,842: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:34491/
+[rosmaster.master][INFO] 2022-03-25 08:36:39,846: +PUB [/rosout_agg] /rosout http://ubuntu:34491/
+[rosmaster.master][INFO] 2022-03-25 08:36:39,863: +SUB [/rosout] /rosout http://ubuntu:34491/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,344: +PUB [/rosout] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,347: +SERVICE [/turtlesim/get_loggers] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,350: +SERVICE [/turtlesim/set_logger_level] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,359: publisherUpdate[/rosout] -> http://ubuntu:34491/ ['http://ubuntu:39061/']
+[rosmaster.master][INFO] 2022-03-25 08:37:41,363: +PARAM [/background_r] by /turtlesim
+[rosmaster.master][INFO] 2022-03-25 08:37:41,366: publisherUpdate[/rosout] -> http://ubuntu:34491/ ['http://ubuntu:39061/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-25 08:37:41,367: +PARAM [/background_g] by /turtlesim
+[rosmaster.master][INFO] 2022-03-25 08:37:41,369: +PARAM [/background_b] by /turtlesim
+[rosmaster.master][INFO] 2022-03-25 08:37:41,445: +SERVICE [/clear] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,447: +SERVICE [/reset] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,449: +SERVICE [/spawn] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,451: +SERVICE [/kill] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,463: +SUB [/turtle1/cmd_vel] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,465: +PUB [/turtle1/pose] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,467: +PUB [/turtle1/color_sensor] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,469: +SERVICE [/turtle1/set_pen] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,471: +SERVICE [/turtle1/teleport_relative] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:41,474: +SERVICE [/turtle1/teleport_absolute] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:47,448: -SERVICE [/turtle1/teleport_absolute] /turtlesim rosrpc://ubuntu:47057
+[rosmaster.master][INFO] 2022-03-25 08:37:47,452: -SERVICE [/turtle1/teleport_relative] /turtlesim rosrpc://ubuntu:47057
+[rosmaster.master][INFO] 2022-03-25 08:37:47,454: -SERVICE [/turtle1/set_pen] /turtlesim rosrpc://ubuntu:47057
+[rosmaster.master][INFO] 2022-03-25 08:37:47,458: -PUB [/turtle1/color_sensor] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:47,460: -PUB [/turtle1/pose] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:47,463: -SUB [/turtle1/cmd_vel] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:47,465: -SERVICE [/kill] /turtlesim rosrpc://ubuntu:47057
+[rosmaster.master][INFO] 2022-03-25 08:37:47,466: -SERVICE [/spawn] /turtlesim rosrpc://ubuntu:47057
+[rosmaster.master][INFO] 2022-03-25 08:37:47,468: -SERVICE [/reset] /turtlesim rosrpc://ubuntu:47057
+[rosmaster.master][INFO] 2022-03-25 08:37:47,474: -SERVICE [/clear] /turtlesim rosrpc://ubuntu:47057
+[rosmaster.master][INFO] 2022-03-25 08:37:47,611: -PUB [/rosout] /turtlesim http://ubuntu:39061/
+[rosmaster.master][INFO] 2022-03-25 08:37:47,612: -SERVICE [/turtlesim/get_loggers] /turtlesim rosrpc://ubuntu:47057
+[rosmaster.master][INFO] 2022-03-25 08:37:47,613: publisherUpdate[/rosout] -> http://ubuntu:34491/ []
+[rosmaster.master][INFO] 2022-03-25 08:37:47,615: publisherUpdate[/rosout] -> http://ubuntu:34491/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-03-25 08:37:47,616: -SERVICE [/turtlesim/set_logger_level] /turtlesim rosrpc://ubuntu:47057

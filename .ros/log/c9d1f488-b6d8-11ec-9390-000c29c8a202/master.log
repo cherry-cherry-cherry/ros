@@ -1,0 +1,14 @@
+[rosmaster.main][INFO] 2022-04-08 09:11:17,699: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-04-08 09:11:17,699: Starting ROS Master Node
+[xmlrpc][INFO] 2022-04-08 09:11:17,701: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-04-08 09:11:17,701: Started XML-RPC server [http://ubuntu:11311/]
+[xmlrpc][INFO] 2022-04-08 09:11:17,701: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-04-08 09:11:17,702: Master initialized: port[11311], uri[http://ubuntu:11311/]
+[rosmaster.master][INFO] 2022-04-08 09:11:17,748: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-04-08 09:11:17,751: +PARAM [/roslaunch/uris/host_ubuntu__36459] by /roslaunch
+[rosmaster.master][INFO] 2022-04-08 09:11:18,055: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-04-08 09:11:18,055: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-04-08 09:11:18,223: +SERVICE [/rosout/get_loggers] /rosout http://ubuntu:43809/
+[rosmaster.master][INFO] 2022-04-08 09:11:18,225: +SERVICE [/rosout/set_logger_level] /rosout http://ubuntu:43809/
+[rosmaster.master][INFO] 2022-04-08 09:11:18,230: +PUB [/rosout_agg] /rosout http://ubuntu:43809/
+[rosmaster.master][INFO] 2022-04-08 09:11:18,242: +SUB [/rosout] /rosout http://ubuntu:43809/

@@ -1,0 +1,34 @@
+[rospy.client][INFO] 2022-05-21 10:44:40,667: init_node, name[/myrobot_teleop], pid[8736]
+[xmlrpc][INFO] 2022-05-21 10:44:40,671: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-21 10:44:40,672: Started XML-RPC server [http://ubuntu:42359/]
+[rospy.impl.masterslave][INFO] 2022-05-21 10:44:40,673: _ready: http://ubuntu:42359/
+[rospy.init][INFO] 2022-05-21 10:44:40,673: ROS Slave URI: [http://ubuntu:42359/]
+[xmlrpc][INFO] 2022-05-21 10:44:40,675: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-21 10:44:40,675: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-05-21 10:44:40,775: registered with master
+[rospy.rosout][INFO] 2022-05-21 10:44:40,776: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-21 10:44:40,781: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-21 10:44:40,784: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-21 10:44:40,892: topic[/cmd_vel] adding connection to [/arbotix], count 0
+[rospy.internal][INFO] 2022-05-21 10:44:40,972: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-05-21 10:47:53,437: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-05-21 10:47:53,442: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-21 10:47:53,443: topic[/cmd_vel] removing connection to /arbotix
+[rospy.impl.masterslave][INFO] 2022-05-21 10:47:53,444: atexit
+[rospy.client][INFO] 2022-05-21 10:48:01,621: init_node, name[/myrobot_teleop], pid[8830]
+[xmlrpc][INFO] 2022-05-21 10:48:01,622: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-21 10:48:01,622: Started XML-RPC server [http://ubuntu:34889/]
+[rospy.impl.masterslave][INFO] 2022-05-21 10:48:01,622: _ready: http://ubuntu:34889/
+[rospy.init][INFO] 2022-05-21 10:48:01,623: ROS Slave URI: [http://ubuntu:34889/]
+[xmlrpc][INFO] 2022-05-21 10:48:01,624: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-21 10:48:01,625: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-05-21 10:48:01,724: registered with master
+[rospy.rosout][INFO] 2022-05-21 10:48:01,724: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-21 10:48:01,730: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-21 10:48:01,733: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-21 10:48:01,764: topic[/cmd_vel] adding connection to [/arbotix], count 0
+[rospy.internal][INFO] 2022-05-21 10:48:01,977: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-05-21 10:49:30,007: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-05-21 10:49:30,012: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-21 10:49:30,013: topic[/cmd_vel] removing connection to /arbotix
+[rospy.impl.masterslave][INFO] 2022-05-21 10:49:30,013: atexit

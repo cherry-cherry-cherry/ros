@@ -1,0 +1,14 @@
+[rospy.client][INFO] 2022-05-21 09:58:30,822: init_node, name[/joint_state_publisher], pid[6028]
+[xmlrpc][INFO] 2022-05-21 09:58:30,823: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-21 09:58:30,823: Started XML-RPC server [http://ubuntu:46701/]
+[rospy.impl.masterslave][INFO] 2022-05-21 09:58:30,823: _ready: http://ubuntu:46701/
+[xmlrpc][INFO] 2022-05-21 09:58:30,824: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-21 09:58:30,825: ROS Slave URI: [http://ubuntu:46701/]
+[rospy.registration][INFO] 2022-05-21 09:58:30,825: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-05-21 09:58:30,926: registered with master
+[rospy.rosout][INFO] 2022-05-21 09:58:30,927: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-21 09:58:30,931: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-21 09:58:30,935: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-21 09:58:31,139: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-05-21 09:58:31,232: Centering
+[rospy.internal][INFO] 2022-05-21 09:58:31,441: topic[/joint_states] adding connection to [/robot_state_publisher], count 0

@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2022-04-29 08:09:59,975: init_node, name[/turtle2_tf_broadcaster], pid[2920]
+[xmlrpc][INFO] 2022-04-29 08:09:59,976: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-29 08:09:59,977: Started XML-RPC server [http://ubuntu:45479/]
+[rospy.impl.masterslave][INFO] 2022-04-29 08:09:59,977: _ready: http://ubuntu:45479/
+[rospy.init][INFO] 2022-04-29 08:09:59,978: ROS Slave URI: [http://ubuntu:45479/]
+[rospy.registration][INFO] 2022-04-29 08:09:59,980: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-04-29 08:09:59,982: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-04-29 08:10:00,079: registered with master
+[rospy.rosout][INFO] 2022-04-29 08:10:00,079: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-29 08:10:00,087: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-29 08:10:00,091: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-29 08:10:00,152: topic[/turtle2/pose] adding connection to [http://ubuntu:35851/], count 0
+[rospy.internal][INFO] 2022-04-29 08:10:00,336: topic[/tf] adding connection to [/turtle_pointer], count 0
+[rospy.internal][INFO] 2022-04-29 08:10:00,373: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-29 08:10:10,610: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-04-29 08:10:10,621: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-04-29 08:10:10,622: topic[/tf] removing connection to /turtle_pointer
+[rospy.internal][INFO] 2022-04-29 08:10:10,623: topic[/turtle2/pose] removing connection to http://ubuntu:35851/
+[rospy.impl.masterslave][INFO] 2022-04-29 08:10:10,623: signal-2
+[rospy.internal][WARNING] 2022-04-29 08:10:10,626: Unknown error initiating TCP/IP socket to ubuntu:51853 (http://ubuntu:35851/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2022-04-29 08:10:10,743: signal_shutdown [atexit]

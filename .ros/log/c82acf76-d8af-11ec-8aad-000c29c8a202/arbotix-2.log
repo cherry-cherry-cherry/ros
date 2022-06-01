@@ -1,0 +1,46 @@
+[rospy.client][INFO] 2022-05-21 10:43:26,207: init_node, name[/arbotix], pid[8499]
+[xmlrpc][INFO] 2022-05-21 10:43:26,208: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-21 10:43:26,209: Started XML-RPC server [http://ubuntu:39779/]
+[rospy.init][INFO] 2022-05-21 10:43:26,209: ROS Slave URI: [http://ubuntu:39779/]
+[rospy.impl.masterslave][INFO] 2022-05-21 10:43:26,209: _ready: http://ubuntu:39779/
+[xmlrpc][INFO] 2022-05-21 10:43:26,210: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-21 10:43:26,211: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-05-21 10:43:26,310: registered with master
+[rospy.rosout][INFO] 2022-05-21 10:43:26,310: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-21 10:43:26,313: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-21 10:43:26,315: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-05-21 10:43:26,345: ArbotiX being simulated.
+[rosout][INFO] 2022-05-21 10:43:26,386: Started DiffController (base_controller). Geometry: 0.4m wide, 4100.0 ticks/m.
+[rospy.internal][INFO] 2022-05-21 10:43:26,613: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-21 10:43:26,616: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2022-05-21 10:43:26,620: topic[/tf] adding connection to [/rviz], count 0
+[rospy.internal][INFO] 2022-05-21 10:43:26,621: topic[/odom] adding connection to [/rviz], count 0
+[rospy.internal][INFO] 2022-05-21 10:44:40,885: topic[/cmd_vel] adding connection to [http://ubuntu:42359/], count 0
+[rospy.internal][WARNING] 2022-05-21 10:47:53,450: Unknown error initiating TCP/IP socket to ubuntu:37797 (http://ubuntu:42359/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-05-21 10:47:53,450: topic[/cmd_vel] removing connection to http://ubuntu:42359/
+[rospy.internal][INFO] 2022-05-21 10:48:01,758: topic[/cmd_vel] adding connection to [http://ubuntu:34889/], count 0
+[rospy.internal][WARNING] 2022-05-21 10:49:30,014: Unknown error initiating TCP/IP socket to ubuntu:37251 (http://ubuntu:34889/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-05-21 10:49:30,014: topic[/cmd_vel] removing connection to http://ubuntu:34889/
+[rospy.core][INFO] 2022-05-21 10:49:40,596: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-21 10:49:40,603: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2022-05-21 10:49:40,603: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-21 10:49:40,604: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2022-05-21 10:49:40,604: topic[/odom] removing connection to /rviz
+[rospy.impl.masterslave][INFO] 2022-05-21 10:49:40,605: signal-2
+[rospy.core][INFO] 2022-05-21 10:49:40,773: signal_shutdown [atexit]

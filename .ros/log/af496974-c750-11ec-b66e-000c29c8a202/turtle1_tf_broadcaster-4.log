@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2022-04-29 08:09:59,996: init_node, name[/turtle1_tf_broadcaster], pid[2918]
+[xmlrpc][INFO] 2022-04-29 08:09:59,997: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-04-29 08:09:59,998: Started XML-RPC server [http://ubuntu:37167/]
+[rospy.impl.masterslave][INFO] 2022-04-29 08:09:59,998: _ready: http://ubuntu:37167/
+[rospy.init][INFO] 2022-04-29 08:09:59,999: ROS Slave URI: [http://ubuntu:37167/]
+[xmlrpc][INFO] 2022-04-29 08:09:59,999: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-04-29 08:10:00,001: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-04-29 08:10:00,100: registered with master
+[rospy.rosout][INFO] 2022-04-29 08:10:00,101: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-04-29 08:10:00,111: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-04-29 08:10:00,116: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-04-29 08:10:00,173: topic[/turtle1/pose] adding connection to [http://ubuntu:35851/], count 0
+[rospy.internal][INFO] 2022-04-29 08:10:00,348: topic[/tf] adding connection to [/turtle_pointer], count 0
+[rospy.internal][INFO] 2022-04-29 08:10:00,373: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-04-29 08:10:10,610: signal_shutdown [signal-2]
+[rospy.internal][WARNING] 2022-04-29 08:10:10,627: Unknown error initiating TCP/IP socket to ubuntu:51853 (http://ubuntu:35851/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 651, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-04-29 08:10:10,628: topic[/turtle1/pose] removing connection to http://ubuntu:35851/
+[rospy.internal][INFO] 2022-04-29 08:10:10,629: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-04-29 08:10:10,630: topic[/tf] removing connection to /turtle_pointer
+[rospy.impl.masterslave][INFO] 2022-04-29 08:10:10,630: signal-2
+[rospy.core][INFO] 2022-04-29 08:10:10,767: signal_shutdown [atexit]

@@ -1,0 +1,14 @@
+Gazebo multi-robot simulator, version 7.16.1
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1654047247 746292112) [Msg] Waiting for master.
+(1654047247 752822129) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1654047247 753404102) [Msg] Publicized address: 192.168.49.128
+(1654047247 754223734) Loaded .ini file from: "/home/ros/.gazebo/gui.ini"
+(1654047249 744586151) [Err] [InsertModelWidget.cc:302] Missing model.config for model "/home/ros/catkin_ws/src/ROS-Academy-for-Beginners/robot_sim_demo/models/meshes"
+(1654047249 744809204) model.config file is missing in directory["/home/ros/catkin_ws/src/ROS-Academy-for-Beginners/robot_sim_demo/models/meshes"]
+(1654047252 689557703) No spacenav daemon found. Spacenav functionality is disabled
+(1654047436 366001418) [Wrn] [Publisher.cc:141] Queue limit reached for topic /gazebo/default/user_camera/pose, deleting message. This warning is printed only once.
